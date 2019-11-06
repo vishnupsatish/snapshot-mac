@@ -1,0 +1,18 @@
+{
+  "name": "instagram-client",
+  "productName": "Snapshot",
+  "version": "1.0.0",
+  "description": "A PC and Mac client for Instagram.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Vishnu S.",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.0.1",
+    "electron-installer-dmg": "^3.0.0",
+    "electron-packager": "^14.1.0"
+  }
+}

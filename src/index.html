@@ -1,0 +1,19 @@
+<html>
+  <head>
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdnjs.cloudflare.com ">
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <title>Snapshot</title>
+    <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />-->
+
+    </head>
+  <body id="body">
+    <webview src="https://www.instagram.com/" style="display:inline-flex; width:99%; height:94%" useragent="Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"></webview>
+    <p>This application was made for educational use. <a onclick="require('electron').shell.openExternal('https://www.vishnus.me');" href="#">Vishnu</a></p>
+
+  </body>
+</html>
