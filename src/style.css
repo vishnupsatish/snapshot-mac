@@ -9,5 +9,5 @@
 #body {
     text-align: center;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-
+    margin: 0;
 }
